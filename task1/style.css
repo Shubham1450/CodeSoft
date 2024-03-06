@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    background-color: rgb(9, 29, 47);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.left {
+    font-size: 2.2rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    /* background-color: red; */
+    font-size: 3rem;
+    margin: 30px 0;
+}
+
+.rightSection {
+    /* background-color: green; */
+}
+
+.rightSection img {
+    width: 80%;
+}
+
+.purple {
+    color: aqua;
+}
+
+.links {
+    padding-top: 3rem;
+}
+
+.links ul {
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.links ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.contactMe button {
+    height: 40px;
+    width: 200px;
+    background-color: rgb(127, 51, 249);
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+
+}
+.contactMe a{
+    
+}
+
+/* //section2
+ */
+
+ .secondSection{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 23px 0;
+ }
+
+ .secondSection>div{
+    width: 30%;
+ }
+ .rightSection2 h1{
+    font-size: 5rem;
+ }
+.letfSection2 img{
+    width: 80%;
+}
+.rightSection2 div ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+/* section3 */
+.secondSection{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 23px 0;
+ }
+
+ .thirdsection>div{
+    width: 30%;
+ }
+ .rightSection2 h1{
+    font-size: 5rem;
+ }
+.letfSection2 img{
+    width: 80%;
+}
+.rightSection2 div ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+/* //projects */
+
+.projectsLists ul{
+    display: flex;
+    list-style: none;
+}
+
+.thirdSection{
+    padding-top: 1rem;
+}
+.projHeading {
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.containerProj{
+    display: flex;
+    width: 1160px;
+    margin: auto;
+    
+}
+.tindog img{
+    height: 120px;
+    width: 90px;
+}
+.contactHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+.contact{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: rgb(16, 5, 67);
+    padding-left: 4.5rem;
+}
+
+.tindog img{
+    position: relative;
+    padding-left: 4.2rem;
+}
