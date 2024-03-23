@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin:0 12px ;
+}
+
+.topleft{
+    width: 50%;
+    /* height: 50vh; */
+}
+.topright{
+    height: 50vh;
+
+}
+.section1{
+    /* max-height: 100vh;  */
+    color: #711e15;
+ }
+
+.section1 h1{
+     color: #37110d;
+     font-size: 2rem;
+ }
+
+.topright img{
+    height: 200px;
+    width: 200px;
+}
+
+.pricing-header{
+    max-width: 700px;
+}
+
+.pricing-about{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.pricing-heading{
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.pricing-container{
+    max-width: 960px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.2rem;
+}
+.price-card{
+    display: flex;
+}
+.card {
+    min-width: 220px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+}
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+.card-title{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.card-body{
+    padding: 1.25rem;
+}
+
+.services-container{
+    margin:1.2rem 1rem ;
+}
+.ser-content{
+    margin: 1rem 1.2rem;
+    max-width: 600px;
+    display: flex;
+}
+.ser-about{
+    justify-content: center;
+    margin-left: 12rem;
+    align-content: center;
+}
+.circle img {
+    transition: 1s ease;
+}
+    
+.circle img:hover {
+    border-radius:50%;
+    transition: 1s ease;
+    border: 4px solid rgb(37, 127, 175);
+}
+
+
+
+/* Define hover effect only for the Home list item */
+
+.nav-home:hover{
+    background-color: rgb(31, 56, 200);
+    border-radius:15px;
+
+    color: #ffffff;
+}

@@ -1,0 +1,111 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+/* Viewport{The viewport is the visible area of a web page within a web browser. It's the portion of the web page that the user can currently see. } height" (vh) in CSS, we're referring to a unit of measurement relative to the height of this viewport. So, 100vh would represent 100% of the viewport's height, ensuring that an element spans the entire height of the visible area within the browser window.
+ */
+
+.bg-red{
+    background-color: red;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.font-bold{
+    font-weight: 900;
+}
+
+.my-1{
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-blue{
+    color: rgb(29,88,214);
+}
+.text-center{
+    text-align: center;
+}
+
+.btn{
+    padding: 4px 12px; /*top-bottom left-right*/
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(29,88,214);
+    border-radius: 6px;
+}
+
+.list-unstyled{
+    list-style: none;
+    font-weight: 250;
+}
+
+.px {
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+.mb-4{
+    margin-bottom: 0.6rem;
+}
+
+.btn-block{
+    width: 100%;
+    padding: 0.2rem 0;
+}
+.btn-l{
+    font-size: 1rem;
+}
+
+.btn-border{
+    border-radius: 5px;
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}
+
+.btn-border:hover{
+    background-color:#007bff ;
+    color: white;
+    transition: background-color 0.7s ease, transform 0.9s ease 0.9s
+}
+
+.ser-img img{
+    width: 200px;
+    height: 200px;
+}
+
+.serv1{
+    margin: 30px 2px;
+}
